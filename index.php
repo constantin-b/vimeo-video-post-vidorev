@@ -1,11 +1,11 @@
 <?php
 /*
-* Plugin Name: Vimeo Video Post PRO - Theme VidoRev compatibility
-* Plugin URI: https://codeflavors.com/vimeo-video-post/
-* Description: Add-on plugin for Vimeo Video Post PRO - Vimeo videos WordPress importer which introduces compatibility with theme VidoRev
+* Plugin Name: Vimeotheque PRO 2 - Theme VidoRev compatibility
+* Plugin URI: https://vimeotheque.com
+* Description: Add-on plugin for Vimeotheque PRO - Vimeo videos WordPress importer which introduces compatibility with theme VidoRev
 * Author: CodeFlavors
 * Version: 1.1
-* Author URI: https://codeflavors.com
+* Author URI: https://vimeotheque.com
 */
 
 class CVM_Vidorev_Compatibility{
