@@ -23,7 +23,7 @@ class CVM_Vidorev_Compatibility{
 	 * CVM_Vidorev_Compatibility constructor.
 	 */
 	private function __construct() {
-		add_action( 'init', array( $this, 'on_init' ) );
+		add_action( 'plugins_loaded', array( $this, 'on_init' ) );
 	}
 
 	/**
@@ -41,7 +41,7 @@ class CVM_Vidorev_Compatibility{
 	 * that loaded theme is the right theme
 	 */
 	public function on_init(){
-		if( !class_exists( 'CVM_Vimeo_Videos' ) ){
+		if( !did_action( 'vimeotheque_pro_loaded' ) ){
 			return;
 		}
 		$theme = $this->get_theme();
