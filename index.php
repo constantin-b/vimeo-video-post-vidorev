@@ -4,7 +4,7 @@
 * Plugin URI: https://codeflavors.com/vimeo-video-post/
 * Description: Add-on plugin for Vimeo Video Post PRO - Vimeo videos WordPress importer which introduces compatibility with theme VidoRev
 * Author: CodeFlavors
-* Version: 1.0
+* Version: 1.1
 * Author URI: https://codeflavors.com
 */
 
